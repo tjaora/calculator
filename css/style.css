@@ -1,0 +1,78 @@
+body {
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(28, 92, 51);   
+  }
+
+  .hero{
+    background-image: url("/bg.png");
+    opacity: 0.65;
+    height: 104vh;
+    margin-top: -50px;
+  }
+  
+  section {
+    opacity: 1;
+    height: 90vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  section input {
+    font-size: 2rem;
+    height: 50px;
+    width: 200px;
+    color: #df5a2a;
+  }
+  
+  section table tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  section table tr td {
+    height: 50px;
+    width: 50px;
+  }
+  
+  section table tr td button {
+    font-size: 1.5rem;
+    color: #d4ecdd;
+    background-color: #2a9577;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  section table tr td button:hover {
+    color: #ea8117;
+    background-color: #1ee86b;
+  }
+  footer{
+    text-decoration: solid;
+    font: 1.5em sans-serif;
+    color: #040403;
+    background-color: #d4ecdd;
+    border-radius: 15%;
+  }
+  
